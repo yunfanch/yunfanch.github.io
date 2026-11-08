@@ -1,0 +1,90 @@
+{
+  "name": "Yunfan Chen",
+  "email": "yunfanch@umich.edu",
+  "role": "Ph.D. Candidate · Climate Scientist",
+  "institution": "University of Michigan",
+  "department": "Earth and Environmental Sciences",
+  "advisor": "Julia Cole",
+  "updated": "November 2026",
+  "availability": "Open to postdoctoral and research opportunities from summer 2027.",
+  "intro": "I study how tropical oceans interact and shape regional climate. By bringing coral geochemical records together with observations and climate model experiments, I investigate Indo-Pacific variability, ocean warming, and the implications for monsoon rainfall.",
+  "orcid": "https://orcid.org/0000-0001-7248-5404",
+  "github": "https://github.com/yunfanch",
+  "university_url": "https://lsa.umich.edu/earth/people/graduate-students/yunfan-chen.html",
+  "projects": [
+    {
+      "id": "coral-reconstruction",
+      "category": "Coral archives · Climate reconstruction",
+      "title": "A longer view of Indo-Pacific interactions",
+      "question": "How have connections between the Indian and Pacific Oceans changed over the Industrial Era?",
+      "description": "I combine coral isotope records from Tanzania with a wider western Indian Ocean proxy network to reconstruct regional sea surface temperature. Comparing independent reconstruction methods helps assess the robustness of past variability and changing inter-basin relationships.",
+      "methods": "Coral δ¹⁸O · CPS · PCA / PCR · RegEM",
+      "status": "Manuscript under review · Journal of Climate",
+      "links": [{"label":"Explore the code", "url":"https://github.com/yunfanch/WIO-SST-Reconstruction"}, {"label":"Coral data at NOAA", "url":"https://www.ncei.noaa.gov/access/paleo-search/study/44219"}]
+    },
+    {
+      "id": "monsoon",
+      "category": "Climate model evaluation · Hydroclimate",
+      "title": "Indian Ocean warming and the monsoon",
+      "question": "Why does CESM2 struggle to reproduce observed ocean warming and rainfall change?",
+      "description": "Using large-ensemble and Pacific pacemaker experiments, I examine how Pacific variability and Indian Ocean dynamics affect warming and the Indian summer monsoon. This work connects model biases in ocean processes to uncertainty in regional hydroclimate.",
+      "methods": "CESM2 · Large ensembles · Pacific pacemaker experiments",
+      "status": "Published · Geophysical Research Letters, 2026",
+      "links": [{"label":"Read the paper", "url":"https://doi.org/10.1029/2026GL123060"}]
+    },
+    {
+      "id": "long-record",
+      "category": "Paleoclimate · External forcing",
+      "title": "Climate variability across centuries",
+      "question": "How do natural forcing and internal variability shape the Indian Ocean over longer timescales?",
+      "description": "My ongoing doctoral work uses a long-lived coral archive from Tanzania to investigate decadal to multidecadal variability and possible links with solar forcing. The aim is to extend the perspective available from instrumental observations.",
+      "methods": "Coral isotope geochemistry · Time-series analysis · Climate dynamics",
+      "status": "Ongoing doctoral research",
+      "links": []
+    }
+  ],
+  "publications": [
+    {
+      "id": "chen2026cesm2", "year": 2026, "first_author": true,
+      "title": "Diagnosing CESM2 Biases in Northwest Indian Ocean Warming and Its Implications for India Summer Monsoon Precipitation",
+      "authors": "Chen, Y., Cole, J., Stevenson, S., Madhavan, M., Du, Y., Feng, Y., Tanuputri, J., & Dyez, K.",
+      "journal": "Geophysical Research Letters", "volume": "53", "issue": "17", "pages": "e2026GL123060", "doi": "10.1029/2026GL123060",
+      "summary": "Ocean model biases can alter the simulated response of regional rainfall to warming. This study uses coupled and Pacific pacemaker ensembles to investigate how Pacific variability and Indian Ocean thermocline structure contribute to model–observation disagreement."
+    },
+    {
+      "id": "chen2023capacitor", "year": 2023, "first_author": true,
+      "title": "Indo-western Pacific Ocean capacitor events recorded by coral proxies in the South China Sea",
+      "authors": "Chen, Y., Du, Y., & Chen, Z.",
+      "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology", "volume": "609", "pages": "111315", "doi": "10.1016/j.palaeo.2022.111315",
+      "summary": "Coral oxygen isotope and Sr/Ca records provide a proxy perspective on the Indo-western Pacific Ocean capacitor effect and its imprint on sea surface temperatures in the South China Sea."
+    },
+    {
+      "id": "du2023convergence", "year": 2023, "first_author": false,
+      "title": "Multi-scale ocean dynamical processes in the Indo-Pacific Convergence Zone and their climatic and ecological effects",
+      "authors": "Du, Y., Wang, F., Wang, T., Liu, W., Liang, L., Zhang, Y., Chen, Y., Liu, J., Wu, W., Yu, K., & Zhang, J.",
+      "journal": "Earth-Science Reviews", "volume": "237", "pages": "104313", "doi": "10.1016/j.earscirev.2023.104313",
+      "summary": "A collaborative review of ocean dynamical processes and their connections to climate and ecosystems in the region where the tropical Indian and Pacific Oceans meet."
+    },
+    {
+      "id": "chen2022coral", "year": 2022, "first_author": true,
+      "title": "Reconstruction of climate variability of the tropical Indian Ocean based on the coral δ¹⁸O data from four representative sites",
+      "authors": "Chen, Y., Chen, T., Long, S., Chen, Z., & Du, Y.",
+      "journal": "Journal of Tropical Oceanography", "volume": "41", "issue": "1", "pages": "82–93", "doi": "10.11978/2021011",
+      "summary": "An assessment of coral oxygen isotope records from Kenya, Seychelles, Tanzania, and Mentawai as archives of tropical Indian Ocean climate variability. In Chinese with an English abstract."
+    }
+  ],
+  "manuscript": {
+    "title": "Indo-Pacific Interactions in the Industrial Era: Insights from Coral Records",
+    "authors": "Chen, Y., Cole, J., Stevenson, S., Feng, Y., Barnett, H., Tanuputri, J., Dyez, K., & McClanahan, T.",
+    "status": "Under review at Journal of Climate"
+  },
+  "education": [
+    {"date":"2023–present", "degree":"Ph.D., Earth and Environmental Sciences", "school":"University of Michigan, Ann Arbor", "detail":"Candidate; expected May 2027. Advisor: Julia Cole."},
+    {"date":"2020–2023", "degree":"M.S., Physical Oceanography", "school":"South China Sea Institute of Oceanology, Chinese Academy of Sciences", "detail":"Advisor: Yan Du."},
+    {"date":"2016–2020", "degree":"B.S., Marine Science", "school":"Hohai University", "detail":""}
+  ],
+  "awards": [
+    {"date":"2026–2027", "title":"Rackham Predoctoral Fellowship", "institution":"University of Michigan", "url":"https://rackham.umich.edu/discover-rackham/announcing-the-2026-2027-rackham-predoctoral-fellowship-awards/"},
+    {"date":"2022", "title":"China National Scholarship", "institution":"", "url":""}
+  ]
+}
