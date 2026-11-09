@@ -18,4 +18,4 @@ No dependencies, tracking, external fonts, or build service are required. All co
 
 Run `python3 -m http.server 8000` in this folder and open http://localhost:8000.
 
-The CV is a selected academic record. Publication status and opportunity availability should be updated as they change. The portrait is from the public University of Michigan profile. Publication metadata was checked against publisher records; ongoing research descriptions reflect the author's academic materials.
+The online CV follows the academic record supplied by the author in October 2026. Publication status and opportunity availability should be updated as they change. The portrait was supplied directly by the author. Publication metadata was checked against publisher records; ongoing research descriptions reflect the author's academic materials.

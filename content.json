@@ -18,9 +18,18 @@
       "title": "A longer view of Indo-Pacific interactions",
       "question": "How have connections between the Indian and Pacific Oceans changed over the Industrial Era?",
       "description": "I combine coral isotope records from Tanzania with a wider western Indian Ocean proxy network to reconstruct regional sea surface temperature. Comparing independent reconstruction methods helps assess the robustness of past variability and changing inter-basin relationships.",
-      "methods": "Coral δ¹⁸O · CPS · PCA / PCR · RegEM",
-      "status": "Manuscript under review · Journal of Climate",
-      "links": [{"label":"Explore the code", "url":"https://github.com/yunfanch/WIO-SST-Reconstruction"}, {"label":"Coral data at NOAA", "url":"https://www.ncei.noaa.gov/access/paleo-search/study/44219"}]
+      "methods": "Coral δ¹⁸O · CPS · PCA / PCR · RegEM · CESM1 Last Millennium Ensemble",
+      "status": "Fourth-round minor revision submitted · Journal of Climate",
+      "links": [
+        {
+          "label": "Explore the code",
+          "url": "https://github.com/yunfanch/WIO-SST-Reconstruction"
+        },
+        {
+          "label": "Coral data at NOAA",
+          "url": "https://www.ncei.noaa.gov/access/paleo-search/study/44219"
+        }
+      ]
     },
     {
       "id": "monsoon",
@@ -30,61 +39,367 @@
       "description": "Using large-ensemble and Pacific pacemaker experiments, I examine how Pacific variability and Indian Ocean dynamics affect warming and the Indian summer monsoon. This work connects model biases in ocean processes to uncertainty in regional hydroclimate.",
       "methods": "CESM2 · Large ensembles · Pacific pacemaker experiments",
       "status": "Published · Geophysical Research Letters, 2026",
-      "links": [{"label":"Read the paper", "url":"https://doi.org/10.1029/2026GL123060"}]
+      "links": [
+        {
+          "label": "Read the paper",
+          "url": "https://doi.org/10.1029/2026GL123060"
+        }
+      ]
     },
     {
       "id": "long-record",
       "category": "Paleoclimate · External forcing",
       "title": "Climate variability across centuries",
       "question": "How do natural forcing and internal variability shape the Indian Ocean over longer timescales?",
-      "description": "My ongoing doctoral work uses a long-lived coral archive from Tanzania to investigate decadal to multidecadal variability and possible links with solar forcing. The aim is to extend the perspective available from instrumental observations.",
-      "methods": "Coral isotope geochemistry · Time-series analysis · Climate dynamics",
-      "status": "Ongoing doctoral research",
+      "description": "I use a 387-year Diploastrea heliopora coral record from the Mafia Archipelago, Tanzania, to investigate decadal to multidecadal Indian Ocean sea surface temperature variability. ERA5 reanalysis and solar-forcing experiments from CESM1 and GISS help examine atmospheric and oceanic mechanisms linking solar forcing to regional climate.",
+      "methods": "Coral δ¹⁸O / δ¹³C · ERA5 · CESM1 · GISS solar-forcing experiments",
+      "status": "Manuscript in preparation",
       "links": []
     }
   ],
   "publications": [
     {
-      "id": "chen2026cesm2", "year": 2026, "first_author": true,
+      "id": "chen2026cesm2",
+      "year": 2026,
+      "first_author": true,
       "title": "Diagnosing CESM2 Biases in Northwest Indian Ocean Warming and Its Implications for India Summer Monsoon Precipitation",
       "authors": "Chen, Y., Cole, J., Stevenson, S., Madhavan, M., Du, Y., Feng, Y., Tanuputri, J., & Dyez, K.",
-      "journal": "Geophysical Research Letters", "volume": "53", "issue": "17", "pages": "e2026GL123060", "doi": "10.1029/2026GL123060",
+      "journal": "Geophysical Research Letters",
+      "volume": "53",
+      "issue": "17",
+      "pages": "e2026GL123060",
+      "doi": "10.1029/2026GL123060",
       "summary": "Ocean model biases can alter the simulated response of regional rainfall to warming. This study uses coupled and Pacific pacemaker ensembles to investigate how Pacific variability and Indian Ocean thermocline structure contribute to model–observation disagreement."
     },
     {
-      "id": "chen2023capacitor", "year": 2023, "first_author": true,
+      "id": "tanuputri2026venezuela",
+      "year": 2026,
+      "first_author": false,
+      "title": "Coral Sr/Ca From Venezuela Reconstruct Large-Scale Variability in Atlantic Sea Surface Temperature and Regional Hydroclimate Extremes",
+      "authors": "Tanuputri, J. O., Cole, J. E., Dyez, K. A., Stevenson, S., Luo, F., Chen, Y., & Feng, Y.",
+      "journal": "Paleoceanography and Paleoclimatology",
+      "volume": "41",
+      "issue": "2",
+      "pages": "e2025PA005379",
+      "doi": "10.1029/2025PA005379",
+      "summary": "A coral Sr/Ca record from Venezuela provides a proxy perspective on Atlantic sea surface temperature variability and regional hydroclimate extremes."
+    },
+    {
+      "id": "chen2023capacitor",
+      "year": 2023,
+      "first_author": true,
       "title": "Indo-western Pacific Ocean capacitor events recorded by coral proxies in the South China Sea",
       "authors": "Chen, Y., Du, Y., & Chen, Z.",
-      "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology", "volume": "609", "pages": "111315", "doi": "10.1016/j.palaeo.2022.111315",
+      "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+      "volume": "609",
+      "pages": "111315",
+      "doi": "10.1016/j.palaeo.2022.111315",
       "summary": "Coral oxygen isotope and Sr/Ca records provide a proxy perspective on the Indo-western Pacific Ocean capacitor effect and its imprint on sea surface temperatures in the South China Sea."
     },
     {
-      "id": "du2023convergence", "year": 2023, "first_author": false,
+      "id": "du2023convergence",
+      "year": 2023,
+      "first_author": false,
       "title": "Multi-scale ocean dynamical processes in the Indo-Pacific Convergence Zone and their climatic and ecological effects",
       "authors": "Du, Y., Wang, F., Wang, T., Liu, W., Liang, L., Zhang, Y., Chen, Y., Liu, J., Wu, W., Yu, K., & Zhang, J.",
-      "journal": "Earth-Science Reviews", "volume": "237", "pages": "104313", "doi": "10.1016/j.earscirev.2023.104313",
+      "journal": "Earth-Science Reviews",
+      "volume": "237",
+      "pages": "104313",
+      "doi": "10.1016/j.earscirev.2023.104313",
       "summary": "A collaborative review of ocean dynamical processes and their connections to climate and ecosystems in the region where the tropical Indian and Pacific Oceans meet."
     },
     {
-      "id": "chen2022coral", "year": 2022, "first_author": true,
+      "id": "chen2022coral",
+      "year": 2022,
+      "first_author": true,
       "title": "Reconstruction of climate variability of the tropical Indian Ocean based on the coral δ¹⁸O data from four representative sites",
       "authors": "Chen, Y., Chen, T., Long, S., Chen, Z., & Du, Y.",
-      "journal": "Journal of Tropical Oceanography", "volume": "41", "issue": "1", "pages": "82–93", "doi": "10.11978/2021011",
+      "journal": "Journal of Tropical Oceanography",
+      "volume": "41",
+      "issue": "1",
+      "pages": "82–93",
+      "doi": "10.11978/2021011",
       "summary": "An assessment of coral oxygen isotope records from Kenya, Seychelles, Tanzania, and Mentawai as archives of tropical Indian Ocean climate variability. In Chinese with an English abstract."
     }
   ],
   "manuscript": {
     "title": "Indo-Pacific Interactions in the Industrial Era: Insights from Coral Records",
     "authors": "Chen, Y., Cole, J., Stevenson, S., Feng, Y., Barnett, H., Tanuputri, J., Dyez, K., & McClanahan, T.",
-    "status": "Under review at Journal of Climate"
+    "status": "Fourth-round minor revision submitted, Journal of Climate"
   },
   "education": [
-    {"date":"2023–present", "degree":"Ph.D., Earth and Environmental Sciences", "school":"University of Michigan, Ann Arbor", "detail":"Candidate; expected May 2027. Advisor: Julia Cole."},
-    {"date":"2020–2023", "degree":"M.S., Physical Oceanography", "school":"South China Sea Institute of Oceanology, Chinese Academy of Sciences", "detail":"Advisor: Yan Du."},
-    {"date":"2016–2020", "degree":"B.S., Marine Science", "school":"Hohai University", "detail":""}
+    {
+      "date": "2023–present",
+      "degree": "Ph.D., Earth and Environmental Sciences",
+      "school": "University of Michigan, Ann Arbor",
+      "detail": "Candidate; expected May 2027. Advisor: Julia Cole."
+    },
+    {
+      "date": "2020–2023",
+      "degree": "M.S., Physical Oceanography",
+      "school": "South China Sea Institute of Oceanology, Chinese Academy of Sciences",
+      "detail": "Advisor: Yan Du."
+    },
+    {
+      "date": "2016–2020",
+      "degree": "B.S., Marine Science",
+      "school": "Hohai University",
+      "detail": ""
+    }
   ],
   "awards": [
-    {"date":"2026–2027", "title":"Rackham Predoctoral Fellowship", "institution":"University of Michigan", "url":"https://rackham.umich.edu/discover-rackham/announcing-the-2026-2027-rackham-predoctoral-fellowship-awards/"},
-    {"date":"2022", "title":"China National Scholarship", "institution":"", "url":""}
+    {
+      "date": "2026–2027",
+      "title": "Rackham Predoctoral Fellowship",
+      "institution": "University of Michigan",
+      "url": "https://rackham.umich.edu/discover-rackham/announcing-the-2026-2027-rackham-predoctoral-fellowship-awards/"
+    },
+    {
+      "date": "2025",
+      "title": "Rackham International Student Fellowship",
+      "institution": "University of Michigan",
+      "url": ""
+    },
+    {
+      "date": "2022",
+      "title": "China National Scholarship",
+      "institution": "",
+      "url": ""
+    }
+  ],
+  "photo": "assets/yunfan-chen-portrait.jpg",
+  "cv_source_date": "October 30, 2026",
+  "manuscripts_under_review": [
+    {
+      "title": "Indo-Pacific Interactions in the Industrial Era: Insights from Coral Records",
+      "authors": "Chen, Y., Cole, J., Stevenson, S., Feng, Y., Barnett, H., Tanuputri, J., Dyez, K., & McClanahan, T.",
+      "status": "Fourth-round minor revision submitted, Journal of Climate"
+    },
+    {
+      "title": "Asymmetric Atlantic–Pacific Interactions on Decadal Timescales Underrepresented in Climate Models",
+      "authors": "Xia, Y., Lin, Y.-F., Yu, J.-Y., Chen, Y., & Pritchard, M.",
+      "status": "In revision, Journal of Geophysical Research: Atmospheres"
+    },
+    {
+      "title": "New 254-year Coral-based Reconstruction of Tropical North Atlantic Temperature Supports External Forcing Pacing Multidecadal Variability",
+      "authors": "Tanuputri, J., Cole, J., Stevenson, S., Dyez, K., Overpeck, J., Chen, Y., & Feng, Y.",
+      "status": "Submitted to Nature Communications"
+    }
+  ],
+  "manuscripts_in_preparation": [
+    {
+      "title": "A 387-year Coral Record Reveals Intermittent Solar Modulation of Boreal Wintertime Indian Ocean SST",
+      "authors": "Chen, Y., Cole, J., Lin, Y.-F., Dyez, K., Yu, J.-Y., Du, Y., Stevenson, S., & Tanuputri, J.",
+      "status": "In preparation; intended submission to Nature Communications"
+    },
+    {
+      "title": "Ocean Basin Interactions Drive El Niño Initiation Following Tropical Volcanic Eruptions",
+      "authors": "Feng, Y., Stevenson, S., Song, S.-Y., Cole, J., Xue, A., Wan, N., Chen, Y., & Tanuputri, J.",
+      "status": "In preparation; intended submission to Nature Geoscience"
+    },
+    {
+      "title": "Changes in ENSO Teleconnections to the Tropical North Atlantic and Tropical Indian Ocean Over the Last Millennium",
+      "authors": "Feng, Y., Stevenson, S., Cole, J., Xue, A., Chen, Y., & Tanuputri, J.",
+      "status": "In preparation; intended submission to Journal of Climate"
+    },
+    {
+      "title": "Long-Term Salinity Changes in the Tropical Indian Ocean and Their Impacts on Climate",
+      "authors": "Zhao, Z., Santoso, A., Wang, G., Cai, W., & Chen, Y.",
+      "status": "In preparation"
+    }
+  ],
+  "training": [
+    {
+      "date": "2026–2027",
+      "title": "Graduate AI and Data Science Certificate Program",
+      "description": "University of Michigan; in progress, expected May 2027."
+    },
+    {
+      "date": "2025",
+      "title": "Museum Science Communication Fellows Certificate",
+      "description": "University of Michigan."
+    },
+    {
+      "date": "",
+      "title": "Google Advanced Data Analytics Professional Certificate",
+      "description": ""
+    }
+  ],
+  "research_experience": [
+    {
+      "date": "08/2023–present",
+      "title": "Indo-Pacific Climate Variability, Interactions, and Regional Impacts",
+      "institution": "Research Assistant, Paleoclimate and Common Era Lab, University of Michigan · Advisor: Julia Cole",
+      "description": "Reconstruct western Indian Ocean sea surface temperature using CPS, PCA, PCR, and RegEM; investigate inter-basin variability with CESM1 Last Millennium Ensemble simulations; diagnose Indian Ocean warming and monsoon impacts using CESM2 large-ensemble and Pacific pacemaker experiments. Develop a 387-year coral record and examine solar-forcing mechanisms using ERA5, CESM1, and GISS."
+    },
+    {
+      "date": "09/2020–06/2023",
+      "title": "Climate Variability and Climate Dynamics of the Tropical Oceans",
+      "institution": "Research Assistant, State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences · Advisor: Yan Du",
+      "description": "Analyzed coral δ¹⁸O records from four Indian Ocean sites over 1880–1999; investigated Indo-western Pacific Ocean capacitor events in South China Sea coral records; synthesized dynamical processes and climatic and ecological impacts in the Indo-Pacific Convergence Zone."
+    },
+    {
+      "date": "04/2021–06/2021",
+      "title": "Numerical Simulation of Atlantic Meridional Overturning Circulation",
+      "institution": "Graduate Researcher, University of Chinese Academy of Sciences · Advisor: Tianjun Zhou",
+      "description": "Analyzed AMOC responses to freshwater forcing and wind stress in LICOM3.0 sensitivity experiments."
+    },
+    {
+      "date": "03/2018–06/2019",
+      "title": "Three-Dimensional Temperature–Salinity Structure from Satellite Observations",
+      "institution": "Project Technician, Hohai University · Advisor: Xidong Wang",
+      "description": "Reconstructed subsurface temperature and salinity fields from satellite observations using an inversion method with vertical-gradient constraints."
+    }
+  ],
+  "teaching": [
+    {
+      "date": "Winter & Fall 2025",
+      "title": "Graduate Student Instructor · Introductory Oceanography Lab",
+      "institution": "EARTH 223 / ENVIRON 233, Department of Earth and Environmental Sciences, University of Michigan",
+      "description": "Led weekly laboratory sections from January–April and September–December 2025. Explained quantitative Earth science concepts and guided undergraduates through data analysis, scientific interpretation, and collaborative problem-solving."
+    }
+  ],
+  "conferences": [
+    {
+      "date": "02/2026",
+      "title": "Assessing the Role of Northwest Indian Ocean Warming in Long-term Northeast India Drying",
+      "institution": "Poster · Ocean Sciences Meeting (OSM), Glasgow, Scotland",
+      "description": ""
+    },
+    {
+      "date": "05/2025",
+      "title": "Examining the Role of the Pacific Ocean in the Unusual Warming of the Western Indian Ocean Over the Past Century",
+      "institution": "Poster · PAGES Young Scientists Meeting and Open Science Meeting, Shanghai, China",
+      "description": ""
+    },
+    {
+      "date": "12/2024",
+      "title": "How Has the Tropical Indian and Pacific Ocean Interaction Changed Over the Industrial Era? Insights From Coral Records",
+      "institution": "Poster · AGU Fall Meeting, Washington, DC, USA",
+      "description": ""
+    },
+    {
+      "date": "04/2024",
+      "title": "Coral-Based Reconstruction of Climate Variability in the Western Indian Ocean",
+      "institution": "Poster · Michigan Geophysical Union, Ann Arbor, Michigan, USA",
+      "description": ""
+    }
+  ],
+  "fellowships": [
+    {
+      "date": "05/2026–05/2027",
+      "title": "Rackham Predoctoral Fellowship",
+      "institution": "University of Michigan",
+      "description": ""
+    },
+    {
+      "date": "01/2026–04/2026; 01/2024–12/2024",
+      "title": "NSF-supported Graduate Student Research Assistant",
+      "institution": "University of Michigan",
+      "description": ""
+    },
+    {
+      "date": "05/2025–08/2025",
+      "title": "Rackham International Student Fellowship",
+      "institution": "University of Michigan",
+      "description": ""
+    },
+    {
+      "date": "09/2023–12/2023",
+      "title": "Earth and Environmental Sciences NOVAK Fellowship",
+      "institution": "University of Michigan",
+      "description": ""
+    }
+  ],
+  "honors": [
+    {
+      "date": "2022",
+      "title": "China National Scholarship",
+      "institution": "Top 0.2%"
+    },
+    {
+      "date": "2020–2022",
+      "title": "Student Award of Merit",
+      "institution": "Chinese Academy of Sciences · Top 10%"
+    },
+    {
+      "date": "2016–2020",
+      "title": "Academic Merit Scholarship",
+      "institution": "Hohai University · Top 5%"
+    },
+    {
+      "date": "2017–2020",
+      "title": "Outstanding Student Award",
+      "institution": "Hohai University · Top 2%"
+    },
+    {
+      "date": "2017–2019",
+      "title": "Technology and Innovation Scholarship",
+      "institution": "Hohai University · Top 2%"
+    },
+    {
+      "date": "2018",
+      "title": "Jiangsu Provincial Government Scholarship for Overseas Studies",
+      "institution": "King’s College London · Top 2%"
+    }
+  ],
+  "skills": {
+    "Languages": "Mandarin (native); English (professional working proficiency); Japanese (basic proficiency).",
+    "Programming & software": "Python; MATLAB; Fortran; Linux/Unix; high-performance computing (Great Lakes); GitHub; Globus; Adobe Illustrator, Photoshop, and Premiere Pro.",
+    "Climate & ocean modeling": "CESM; GISS-E2; LICOM; ROMS; SWAN.",
+    "Data analysis": "Regression; time-series analysis; PCA/EOF; principal component regression; machine learning; spectral and wavelet analysis; climate model evaluation; heat-budget analysis; RegEM.",
+    "Laboratory": "Coral δ¹⁸O/δ¹³C records from Porites spp. and Diploastrea heliopora; Thermo Delta V Plus isotope ratio mass spectrometry; scanning electron microscopy."
+  },
+  "lab_and_field": [
+    {
+      "date": "08/2023–present",
+      "title": "Coral geochemistry laboratory",
+      "institution": "University of Michigan",
+      "description": "Generated coral δ¹⁸O/δ¹³C records from Porites spp. and Diploastrea heliopora. Instruments include a Thermo Delta V Plus isotope ratio mass spectrometer and scanning electron microscope (SEM)."
+    },
+    {
+      "date": "07/2019",
+      "title": "Blue Ocean Initiatives",
+      "institution": "Summer Camp for College Students, Chinese Academy of Sciences, Guangdong, China",
+      "description": ""
+    },
+    {
+      "date": "05/2019",
+      "title": "Marine Comprehensive Survey Practice & Jiangsu Offshore Marine Environment Survey",
+      "institution": "Yancheng coastal region, China",
+      "description": "Measured sea surface temperature, salinity, current velocity, and tidal levels. Instruments included CTD, ADCP, optical backscatter sensor, Secchi disk, water colorimeter, and direct-reading current meter."
+    },
+    {
+      "date": "10/2018",
+      "title": "Student team leader · Argo Center",
+      "institution": "Second Institute of Oceanography, Ministry of Natural Resources, Zhejiang, China",
+      "description": "Led a student team in training on oceanographic observations and data processing."
+    }
+  ],
+  "patents": [
+    {
+      "date": "2019",
+      "title": "A Device for Growing Marine Coral",
+      "institution": "Yunfan Chen · ZL201821918130.3",
+      "description": "Filed November 21, 2018; issued August 30, 2019."
+    },
+    {
+      "date": "2018",
+      "title": "A Self-cleaning Fish Tank",
+      "institution": "Yunfan Chen · ZL201510887166.4",
+      "description": "Filed December 7, 2015; issued August 7, 2018."
+    },
+    {
+      "date": "2016",
+      "title": "A Circulating Oxygenation System for Fish Tank",
+      "institution": "Yunfan Chen · ZL201521012586.X",
+      "description": "Filed December 9, 2015; issued April 20, 2016."
+    },
+    {
+      "date": "2016",
+      "title": "A Self-cleaning Fish Tank",
+      "institution": "Yunfan Chen · ZL201521001141.1",
+      "description": "Filed December 7, 2015; issued April 20, 2016."
+    }
   ]
 }
