@@ -25,7 +25,7 @@ def shell(title, description, content, path='', home=False):
     structured = {'@context':'https://schema.org', '@type':'Person', 'name':d['name'], 'url':BASE+'/', 'image':BASE+'/'+d['photo'], 'jobTitle':'Ph.D. Candidate', 'affiliation':{'@type':'CollegeOrUniversity','name':d['institution']},'sameAs':[d['orcid'],d['github'],d['university_url']]}
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#153e46">
+<title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#093d56">
 <link rel="canonical" href="{BASE}/{path}"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{BASE}/{path}"><meta property="og:image" content="{BASE}/{d['photo']}"><meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="assets/styles.css?v={STYLE_VERSION}"><script src="assets/site.js" defer></script><script type="application/ld+json">{json.dumps(structured)}</script></head>
