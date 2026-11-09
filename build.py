@@ -44,6 +44,8 @@ def pub_html(p, cv=False):
 
 projects = ''
 for i, p in enumerate(d['projects'], 1):
+    if p.get('stage') == 'masters' and (i == 1 or d['projects'][i-2].get('stage') != 'masters'):
+        projects += '<div class="research-stage" id="masters-research"><p class="eyebrow">Master’s research / September 2020–June 2023</p><p>Research Assistant, State Key Laboratory of Tropical Oceanography<br>South China Sea Institute of Oceanology, Chinese Academy of Sciences · Advisor: Yan Du</p></div>'
     links = ''.join(f'<a class="text-link" href="{l["url"]}">{e(l["label"])} <span aria-hidden="true">↗</span></a>' for l in p['links'])
     projects += f'''<article class="research-row" id="{p['id']}"><div class="research-label"><span class="project-number">0{i}</span><p class="eyebrow">{e(p['category'])}</p></div><div class="research-body"><h3>{e(p['title'])}</h3><p class="research-question">{e(p['question'])}</p><p>{e(p['description'])}</p><p class="method-line">{e(p['methods'])}</p><div class="research-end"><span class="status">{e(p['status'])}</span>{links}</div></div></article>'''
 

@@ -55,6 +55,54 @@
       "methods": "Coral δ¹⁸O / δ¹³C · ERA5 · CESM1 · GISS solar-forcing experiments",
       "status": "Manuscript in preparation",
       "links": []
+    },
+    {
+      "id": "masters-indian-ocean-coral",
+      "stage": "masters",
+      "category": "Coral archives · Indian Ocean variability",
+      "title": "Reconstructing tropical Indian Ocean climate",
+      "question": "How well do coral archives capture regional climate variability beyond the instrumental record?",
+      "description": "During my master’s research, I analyzed coral δ¹⁸O records from four representative tropical Indian Ocean sites—Kenya, Seychelles, Tanzania, and Mentawai—to reconstruct regional climate variability over 1880–1999. This work assessed how coral records from different parts of the basin reflect tropical Indian Ocean climate.",
+      "methods": "Coral δ¹⁸O · Proxy reconstruction · Regional climate variability",
+      "status": "Published · Journal of Tropical Oceanography, 2022",
+      "links": [
+        {
+          "label": "Read the paper",
+          "url": "https://doi.org/10.11978/2021011"
+        }
+      ]
+    },
+    {
+      "id": "masters-south-china-sea",
+      "stage": "masters",
+      "category": "Indo-Pacific interactions · Coral proxies",
+      "title": "Indo-Pacific connections recorded in South China Sea corals",
+      "question": "Can coral proxies record the Indo-western Pacific Ocean capacitor effect?",
+      "description": "I investigated Indo-western Pacific Ocean capacitor events and their influence on the South China Sea using coral δ¹⁸O and Sr/Ca records. This project used coral geochemical archives to examine the regional imprint of ocean–atmosphere interactions linking the tropical Indian and Pacific Oceans.",
+      "methods": "Coral δ¹⁸O · Sr/Ca · Indo-western Pacific Ocean capacitor effect",
+      "status": "Published · Palaeogeography, Palaeoclimatology, Palaeoecology, 2023",
+      "links": [
+        {
+          "label": "Read the paper",
+          "url": "https://doi.org/10.1016/j.palaeo.2022.111315"
+        }
+      ]
+    },
+    {
+      "id": "masters-convergence-zone",
+      "stage": "masters",
+      "category": "Ocean dynamics · Climate & ecology",
+      "title": "Ocean processes in the Indo-Pacific Convergence Zone",
+      "question": "How do ocean processes across scales connect climate variability and ecological change?",
+      "description": "I contributed to a collaborative review synthesizing multi-scale ocean dynamical and environmental processes in the Indo-Pacific Convergence Zone. The work examined their climatic and ecological impacts, bringing together physical oceanography and evidence of environmental change in the region.",
+      "methods": "Literature synthesis · Multi-scale ocean dynamics · Climate–ecology connections",
+      "status": "Published · Earth-Science Reviews, 2023",
+      "links": [
+        {
+          "label": "Read the review",
+          "url": "https://doi.org/10.1016/j.earscirev.2023.104313"
+        }
+      ]
     }
   ],
   "publications": [
