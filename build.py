@@ -1,11 +1,13 @@
 """Build a dependency-free GitHub Pages website from content.json."""
 import json
+import hashlib
 from html import escape as e
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 d = json.loads((ROOT / 'content.json').read_text())
 BASE = 'https://yunfanch.github.io'
+STYLE_VERSION = hashlib.sha256((ROOT / 'assets/styles.css').read_bytes()).hexdigest()[:12]
 
 
 def nav(home=False):
@@ -26,7 +28,7 @@ def shell(title, description, content, path='', home=False):
 <title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#153e46">
 <link rel="canonical" href="{BASE}/{path}"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{BASE}/{path}"><meta property="og:image" content="{BASE}/{d['photo']}"><meta name="twitter:card" content="summary">
-<link rel="stylesheet" href="assets/styles.css"><script src="assets/site.js" defer></script><script type="application/ld+json">{json.dumps(structured)}</script></head>
+<link rel="stylesheet" href="assets/styles.css?v={STYLE_VERSION}"><script src="assets/site.js" defer></script><script type="application/ld+json">{json.dumps(structured)}</script></head>
 <body>{nav(home)}{content}{footer()}</body></html>'''
 
 
