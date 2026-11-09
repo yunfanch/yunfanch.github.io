@@ -25,7 +25,7 @@
 .cv-actions{display:flex;flex-direction:column;gap:10px;margin-top:47px;flex-shrink:0}.cv-actions .button{white-space:nowrap}.cv-actions .print-button{margin-top:0}@media(max-width:720px){.cv-actions{margin-top:22px;align-items:flex-start}}@media print{.cv-actions{display:none!important}}
 
 /* Ocean and coral color palette with restrained, undecorated surfaces. */
-body{background:radial-gradient(ellipse 900px 660px at 94% 0%,#e4f2f2 0%,transparent 80%),var(--paper)}
+body{background:var(--paper)}
 .site-header{border-bottom-color:#bed9de;position:relative}.site-header::after{content:"";position:absolute;bottom:-1px;left:50px;width:68px;height:3px;background:#d47a68}
 .hero{position:relative;isolation:isolate}
 
@@ -33,9 +33,9 @@ body{background:radial-gradient(ellipse 900px 660px at 94% 0%,#e4f2f2 0%,transpa
 .wordmark-dot,.hero .accent{color:#ce705a}.eyebrow{color:#437380}.button{border-radius:5px}.button.primary{box-shadow:0 3px 0 #062c3d14}.button.secondary{background:#ffffff80}.button.secondary:hover{background:#e3f2ef}.nav-contact{background:#e8f3f280;border-radius:5px}
 .opportunity-strip{background:#eaf5f2;border:1px solid #c4dfde;border-left:3px solid #d47a68;border-radius:5px;padding:17px 20px}
 .section-heading h2::after{content:"";display:block;width:42px;height:3px;background:#d47a68;margin-top:20px;border-radius:3px}
-.research-jump a{background:#fff9;border-color:#b8d6da;border-radius:5px}.research-jump a[href="#masters-research"]{border-bottom:2px solid #d47a68}.research-stage h3{color:#0a5269}.status{border-left-color:#d47a68}.project-number,.pub-year{color:#a84c3c}
+.research-jump a{background:#fff9;border-color:#b8d6da;border-radius:5px}.research-stage h3{color:#0a5269}.status{border-left-color:#d47a68}.project-number,.pub-year{color:#a84c3c}
 .approach-band{background:#093d56}.approach-grid .eyebrow{color:#b4e0df}.approach-list>li>span{color:#edb09b}
-.background-section{background:#eaf4f2}.manuscript{background:linear-gradient(110deg,#e4f2ee,#eff6f4);border-left-color:#d47a68;border-radius:0 7px 7px 0}
+.background-section{background:#eaf4f2}.manuscript{background:#e7f3f0;border-left-color:#d47a68;border-radius:0 7px 7px 0}
 .contact-card{background:#ffffff7a;border-color:#a7cdd1;border-radius:5px;padding:25px}.contact-card .email-link{font-size:24px}
 .site-footer{position:relative;border-top-color:#b8d5d9;padding-top:28px}.site-footer::before{content:"";position:absolute;top:-3px;left:50px;width:46px;height:3px;background:#d47a68}
 .cv-top{position:relative}.cv-top h1{color:#0a5269}.cv-opportunity{background:#e6f3ef;border-left-color:#d47a68;border-radius:0 5px 5px 0}.cv-section h2{color:#0a5269}.cv-section{border-top-color:#c6dfe2}.cv-actions .cv-download{background:#0a5269;border-color:#0a5269}.cv-actions .cv-download:hover{background:#0e657a}
