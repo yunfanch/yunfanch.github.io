@@ -9,7 +9,7 @@ Edit `content.json`, then run `python3 build.py` and commit the generated files.
 - Research summaries, publication records, education, and contact information live in `content.json`.
 - Layout and page copy are in `build.py`.
 - Appearance is in `assets/styles.css`.
-- The CV page supports printing and saving as PDF through the browser.
+- The CV page includes a direct download of the author-supplied latest PDF at `assets/Chen_Yunfan_CV.pdf`, alongside a separate button to print the web page. Replace this PDF when updating the source CV.
 - Publication citations are generated as downloadable BibTeX files.
 
 No dependencies, tracking, external fonts, or build service are required. All content and navigation remain accessible without JavaScript. JavaScript adds publication filtering and the CV print button.
