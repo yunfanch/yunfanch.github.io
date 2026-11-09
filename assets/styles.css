@@ -42,3 +42,11 @@ body{background:var(--paper)}
 @media(max-width:1000px){.site-header::after,.site-footer::before{left:32px}.contact-card .email-link{font-size:20px}}
 @media(max-width:720px){.site-header::after,.site-footer::before{left:20px}.opportunity-strip{padding:15px 14px}.section-heading h2::after{margin-top:16px}.contact-card{padding:22px}.contact-card .email-link{font-size:23px}.cv-top h1{font-size:42px}}
 @media print{body,.hero,.approach-band,.background-section,.contact-section{background:#fff}.section-heading h2::after{display:none}.cv-top h1,.cv-section h2{color:#183e44}.cv-opportunity{background:transparent}}
+
+.language-switch{display:inline-flex;align-items:center;gap:9px;border-left:1px solid var(--line);padding-left:18px;white-space:nowrap;line-height:1.7}.language-switch>span{color:var(--muted);font-size:10px}.site-header nav .language-switch a{font-size:11px}.language-switch a[aria-current="page"]{color:var(--ink);font-weight:650;text-decoration:underline;text-decoration-color:#a5c6cc}.site-header nav{gap:24px}
+.original-title{display:block;font-size:11px;font-weight:400;line-height:1.75;color:var(--muted);margin-top:5px}
+html[lang="zh-CN"]{--sans:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFont,sans-serif;--serif:"Songti SC","Noto Serif CJK SC",Georgia,serif}
+html[lang="zh-CN"] .hero h1,html[lang="zh-CN"] .wordmark,html[lang="zh-CN"] .cv-name{font-family:Georgia,serif}html[lang="zh-CN"] .eyebrow{letter-spacing:1px}html[lang="zh-CN"] .hero-statement{line-height:1.55}html[lang="zh-CN"] .research-body h4{line-height:1.55}html[lang="zh-CN"] .intro{line-height:2}html[lang="zh-CN"] .publication h3{line-height:1.8}
+@media(max-width:1000px){.site-header nav{gap:17px}.language-switch{padding-left:13px;gap:7px}}
+@media(max-width:720px){.site-header nav{gap:9px 12px}.language-switch{padding-left:0;border-left:0;gap:7px}.site-header nav .language-switch a{font-size:10px}html[lang="zh-CN"] .hero-statement{font-size:27px}html[lang="zh-CN"] .hero .role{font-size:10px}.original-title{font-size:10px}}
+@media print{.original-title{font-size:8pt}}

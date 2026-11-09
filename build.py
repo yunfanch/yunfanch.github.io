@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parent
 d = json.loads((ROOT / 'content.json').read_text())
 BASE = 'https://yunfanch.github.io'
 STYLE_VERSION = hashlib.sha256((ROOT / 'assets/styles.css').read_bytes()).hexdigest()[:12]
+SCRIPT_VERSION = hashlib.sha256((ROOT / 'assets/site.js').read_bytes()).hexdigest()[:12]
 
 
 def nav(home=False):
@@ -22,14 +23,18 @@ def footer():
 
 
 def shell(title, description, content, path='', home=False):
+    language_page = 'cv.html' if path == 'cv.html' else 'index.html'
+    language_switch = f'<span class="language-switch" role="group" aria-label="Website language"><a href="{language_page}" lang="en" hreflang="en" data-language="en" aria-current="page">English</a><span aria-hidden="true">/</span><a href="zh/{language_page}" lang="zh-CN" hreflang="zh-CN" data-language="zh">中文</a></span>'
+    navigation = nav(home).replace('</nav>', language_switch + '</nav>')
+    alternate_path = '' if language_page == 'index.html' else language_page
     structured = {'@context':'https://schema.org', '@type':'Person', 'name':d['name'], 'url':BASE+'/', 'image':BASE+'/'+d['photo'], 'jobTitle':'Ph.D. Candidate', 'affiliation':{'@type':'CollegeOrUniversity','name':d['institution']},'sameAs':[d['orcid'],d['github'],d['university_url']]}
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#093d56">
-<link rel="canonical" href="{BASE}/{path}"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{BASE}/{path}"><meta property="og:image" content="{BASE}/{d['photo']}"><meta name="twitter:card" content="summary">
-<link rel="stylesheet" href="assets/styles.css?v={STYLE_VERSION}"><script src="assets/site.js" defer></script><script type="application/ld+json">{json.dumps(structured)}</script></head>
-<body>{nav(home)}{content}{footer()}</body></html>'''
+<link rel="alternate" hreflang="en" href="{BASE}/{alternate_path}"><link rel="alternate" hreflang="zh-CN" href="{BASE}/zh/{alternate_path}"><link rel="alternate" hreflang="x-default" href="{BASE}/{alternate_path}"><link rel="canonical" href="{BASE}/{path}"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:locale" content="en_US"><meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{BASE}/{path}"><meta property="og:image" content="{BASE}/{d['photo']}"><meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="assets/styles.css?v={STYLE_VERSION}"><script src="assets/site.js?v={SCRIPT_VERSION}" defer></script><script type="application/ld+json">{json.dumps(structured)}</script></head>
+<body>{navigation}{content}{footer()}</body></html>'''
 
 
 def author_text(p):
@@ -102,5 +107,9 @@ for p in d['publications']:
     (ROOT / 'assets' / 'citations' / (p['id']+'.bib')).write_text(bib)
 (ROOT / '.nojekyll').touch()
 (ROOT / 'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+BASE+'/sitemap.xml\n')
-(ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+BASE+'/'+p+'</loc></url>' for p in ['', 'cv.html'])+'</urlset>\n')
+(ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+BASE+'/'+p+'</loc></url>' for p in ['', 'cv.html', 'zh/', 'zh/cv.html'])+'</urlset>\n')
 print(f"Built index.html, cv.html, 404.html and {len(d['publications'])} BibTeX citations.")
+
+from i18n import build_chinese
+build_chinese()
+print("Built Chinese homepage and CV, with English/中文 navigation.")

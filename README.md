@@ -19,3 +19,7 @@ No dependencies, tracking, external fonts, or build service are required. All co
 Run `python3 -m http.server 8000` in this folder and open http://localhost:8000.
 
 The online CV follows the academic record supplied by the author in October 2026. Publication status and opportunity availability should be updated as they change. The portrait was supplied directly by the author. Publication metadata was checked against publisher records; ongoing research descriptions reflect the author's academic materials.
+
+## Languages
+
+The language selector links English and Chinese editions of the homepage and CV. Chinese pages are generated under `zh/` from the shared layout using `i18n.py` and the editable `translations.zh.json` dictionary. Update matching translations when changing English content, then run `python3 build.py`. Original English publication titles and citation metadata are retained alongside translated titles. The author-supplied downloadable PDF remains in English.
