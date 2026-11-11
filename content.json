@@ -19,7 +19,7 @@
       "question": "How have connections between the Indian and Pacific Oceans changed over the Industrial Era?",
       "description": "I combine coral isotope records from Tanzania with a wider western Indian Ocean proxy network to reconstruct regional sea surface temperature. Comparing independent reconstruction methods helps assess the robustness of past variability and changing inter-basin relationships.",
       "methods": "Coral δ¹⁸O · CPS · PCA / PCR · RegEM · CESM1 Last Millennium Ensemble",
-      "status": "Fourth-round minor revision submitted · Journal of Climate",
+      "status": "In press · Journal of Climate",
       "links": [
         {
           "label": "Explore the code",
@@ -107,6 +107,15 @@
   ],
   "publications": [
     {
+      "id": "chen-indopacific",
+      "first_author": true,
+      "title": "Indo-Pacific Interactions in the Industrial Era: Insights from Coral Records",
+      "authors": "Chen, Y., Cole, J., Stevenson, S., Feng, Y., Barnett, H., Tanuputri, J., Dyez, K., & McClanahan, T.",
+      "journal": "Journal of Climate",
+      "status": "In press",
+      "summary": "Coral isotope records from Tanzania and a wider western Indian Ocean proxy network provide a longer view of how the Indian and Pacific Oceans interacted during the Industrial Era."
+    },
+    {
       "id": "chen2026cesm2",
       "year": 2026,
       "first_author": true,
@@ -170,11 +179,6 @@
       "summary": "An assessment of coral oxygen isotope records from Kenya, Seychelles, Tanzania, and Mentawai as archives of tropical Indian Ocean climate variability. In Chinese with an English abstract."
     }
   ],
-  "manuscript": {
-    "title": "Indo-Pacific Interactions in the Industrial Era: Insights from Coral Records",
-    "authors": "Chen, Y., Cole, J., Stevenson, S., Feng, Y., Barnett, H., Tanuputri, J., Dyez, K., & McClanahan, T.",
-    "status": "Fourth-round minor revision submitted, Journal of Climate"
-  },
   "education": [
     {
       "date": "2023–present",
@@ -216,13 +220,8 @@
     }
   ],
   "photo": "assets/yunfan-chen-portrait.jpg",
-  "cv_source_date": "October 30, 2026",
+  "cv_source_date": "November 10, 2026",
   "manuscripts_under_review": [
-    {
-      "title": "Indo-Pacific Interactions in the Industrial Era: Insights from Coral Records",
-      "authors": "Chen, Y., Cole, J., Stevenson, S., Feng, Y., Barnett, H., Tanuputri, J., Dyez, K., & McClanahan, T.",
-      "status": "Fourth-round minor revision submitted, Journal of Climate"
-    },
     {
       "title": "Asymmetric Atlantic–Pacific Interactions on Decadal Timescales Underrepresented in Climate Models",
       "authors": "Xia, Y., Lin, Y.-F., Yu, J.-Y., Chen, Y., & Pritchard, M.",
@@ -231,7 +230,7 @@
     {
       "title": "New 254-year Coral-based Reconstruction of Tropical North Atlantic Temperature Supports External Forcing Pacing Multidecadal Variability",
       "authors": "Tanuputri, J., Cole, J., Stevenson, S., Dyez, K., Overpeck, J., Chen, Y., & Feng, Y.",
-      "status": "Submitted to Nature Communications"
+      "status": "Submitted to Communications Earth & Environment"
     }
   ],
   "manuscripts_in_preparation": [
